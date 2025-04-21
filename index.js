@@ -56,8 +56,10 @@ for(let i = 0; i < studentsMark.length; i++ ){
     }
 }
 
+
 //6
 const passMark = (math, english) => (math >= 50 && english >= 50 ? "Yes" : "No");
+console.log(passMark);
 //7
 
 function canSignUp(email, phone) {
